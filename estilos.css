@@ -22,7 +22,7 @@ body {
     background-color: #ddd;
     color: black;
   }
-  
+
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
@@ -53,3 +53,14 @@ body {
       text-align: left;
     }
   }
+.text{
+  margin: 2%;
+}
+.centerImages {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tittleAlign{
+  text-align: center
+}
