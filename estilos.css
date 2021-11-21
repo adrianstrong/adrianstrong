@@ -64,3 +64,7 @@ body {
 .tittleAlign{
   text-align: center
 }
+.borderCentered{
+  border: 2px solid black;
+  margin: 2%;
+}
