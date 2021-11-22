@@ -1,3 +1,7 @@
+label {
+  color: #df8c26;
+}
+
 .saltaLinea {
   display: block;
 }
@@ -30,8 +34,9 @@ body {
 
 h2 {
   text-decoration-line: underline overline;
-  background-color: gray;
+  background-color: none;
   font-style: italic;
+  color: #df8c26;
 }
 
 .tooltip .tooltiptext {
@@ -50,8 +55,8 @@ h2 {
   /* ponemos hidden para 
 que no se vea sin pasar el ratón */
 
-  background-color: rgb(82, 78, 78);
-  color: rgb(190, 226, 204);
+  background-color: #df8c26;
+  color: black;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -69,7 +74,7 @@ input[type="text"] {
   width: 100%;
   padding: 10px 20px;
   margin: 1px 5;
-  background-color: rgb(236, 207, 241);
+  background-color: white;
 
   box-sizing: border-box;
   border: 1px solid #001a0d;
@@ -84,7 +89,7 @@ input[type="tel"] {
   width: 230px;
   padding: 10px 20px;
   margin: 1px 5;
-  background-color: rgb(236, 207, 241);
+  background-color: white;
 
   box-sizing: border-box;
   border: 1px solid #001a0d;
@@ -121,15 +126,15 @@ select {
   width: 30%;
   border: 1px solid #03140b;
   border-radius: 1px;
-  background-color: #669999;
+  background-color: white;
 }
 /* estos son los 2 botones que tenemos en nuestra
 página*/
 input[type="submit"],
 input[type="reset"] {
-  background-color: rgb(68, 55, 184);
+  background-color: white;
   border: 1px solid #03140b;
-  color: black;
+  color: #df8c26;
   padding: 10px 10px;
   text-decoration: none;
   margin: 2px 2px;
