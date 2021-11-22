@@ -1,30 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto+Mono:wght@300&display=swap');
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 300%;
     text-align: center;
     color: black;
     text-shadow: 2px 2px 4px gray;
-}
+    font-size: 230%;
+    text-transform: capitalize;
 
+}
 body {
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 80%;
     text-align: left;
+    font-size: 110%;
+
 }
 ul {
     font-family: "EB Garamond", serif;
     font-family: "Roboto Mono", monospace;
-    font-size: 90%;
     text-align: left;
     text-decoration-line: underline;
     font-style: oblique;
+    font-size: 40%;
+    text-indent: 4%;
+    line-height : 35px;
+
+
 }
 h2 {
+    font-family: "EB Garamond", serif;
+    font-family: "Roboto Mono", monospace;
     text-decoration-line: underline overline;
     background-color: gray;
     font-style: italic;
+    line-height : 25px;
+
+
 }
 
 .strike {
     text-decoration-line: line-through;
+}
+.centerImages {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tittleAlign{
+    text-align: center
+}
+.borderCentered{
+    border: 2px solid black;
+    margin: 2%;
+}
+.tamaño{
+    font-family: "EB Garamond", serif;
+    font-family: "Roboto Mono", monospace;
+    text-decoration-line: underline overline;
+    background-color: gray;
+    font-style: italic;
+    font-size: 90%;
+}
+p {
+    text-shadow: 2px 2px 4px gray;
+}
+a{
+    background-color: gray;
+}
+a:hover{
+    background-color: white;
+}
+a:link{
+    background-color: red;
 }

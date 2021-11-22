@@ -18,3 +18,9 @@ h2 {
     background-color: gray;
     font-style: italic;
 }
+a:hover{
+    background-color: white;
+}
+a:link{
+    background-color: red;
+}
