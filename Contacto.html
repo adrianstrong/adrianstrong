@@ -7,7 +7,6 @@ en el nombre de la página que abrimos.-->
   <meta name="description" content="STORY 4" />
   <meta name="author" content="Grupo 3" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="CSS_STYLESHEETS/CSS_GLOBAL.css">
   <link rel="stylesheet" href="CSS_CONTACTO.css">
   <title></title>
   <!-- el tooltip es lo que vemos cuando dejamos el
@@ -15,21 +14,42 @@ en el nombre de la página que abrimos.-->
  
   </head>
     <html lang="es-ES" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
- </head>
-<body>
-<div class="topnav">
-
-    <a class="active" href="index.html">Home</a>
-
-    <a href="noticias.html">Noticias</a>
-
-    <a href="Contacto.html">Contact</a>
-
-    <a href="aboutus.html">About</a>
-
-    <a href="services.html">Servicios</a>
-
-</div>
+      
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Loren Lynch Mcrae</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:Order msdt:dt="string">202000.000000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Loren Lynch Mcrae</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+<mso:ContentTypeId msdt:dt="string">0x0101009E8F3F4B6301BE499DD44703D05D239C</mso:ContentTypeId>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head><body>
+        <hr />
+<table>
+<tr>
+<td>
+<p><a href="index.html">Index</a></p>
+</td>
+<td>
+<p><a href="aboutus.html">Sobre Nosotros</a></p>
+</td>
+<td>
+<p><a href="services.html">Servicios</a></p>
+</td>
+<td>
+<p><a href="contacto.html">Contacto</a></p>
+</td>
+<td>
+<p><a href="noticias.html">Noticias</a></p>
+</td>
+</tr>
+</table>
+<hr />
         <!-- h1 se utiliza para escribir el título principal de la página, 
         se pueden utilizar h2, h3, etc. para añadir subtítulos de menor importancia.-->
         <h1  class="tittleAlign" ><u>CONTACTO</u></h1>
@@ -65,8 +85,8 @@ en el nombre de la página que abrimos.-->
           </div>
         </div>
            
-
-          <label for="Apellidos">Apellidos</label><br />
+        <div style="margin-left = 2%">
+          <label for="Apellidos"><p>Apellidos</p></label>
           <div class="tooltip">
             <input
             type="text"
@@ -79,9 +99,10 @@ en el nombre de la página que abrimos.-->
           <span class="tooltiptext">Introducir
             apellidos</span> 
           </div>
-          <br />
-
-          <label for="Teléfono">Teléfono de contacto:</label><br />
+        </div>
+          
+        <div style="margin-left = 2%">
+          <label for="Teléfono"><p>Teléfono de contacto</p></label>
           <div class="tooltip">
           <input
             type="tel"
@@ -92,9 +113,9 @@ en el nombre de la página que abrimos.-->
           <span class="tooltiptext">Introducir Teléfono de contacto </span> 
            
         </div>
-        <br/>
-
-          <label for="email">Correo electrónico:</label><br />
+      </div>
+      <div style="margin-left = 2%">
+          <label for="email"><p>Correo electrónico</p></label>
           <div class="tooltip">
               <input
             type="text"
@@ -106,32 +127,34 @@ en el nombre de la página que abrimos.-->
             <span class="tooltiptext">Introducir
                 correo electrónico</span> 
             </div>
-            <br />
-
-          <label for="Servicio">Servicio deseado:</label><br />
+          </div>
+          <div style="margin-left = 2%">
+          <label for="Servicio"><p>Servicio deseado</p></label>
           <select name="Servicio" id="Servicio"> 
             <option value="encargos">Encargos</option>
             <option value="incidencias">Incidencias</option>
             <option value="sugerencias">Sugerencias</option>
           </select>
-        
-          <br />
-
-          <label for="sexo">Sexo</label><br />
+          </div>
+          
+          <div style="margin-left = 2%">
+          <label for="sexo"><p>Sexo</p></label>
           <input
             type="radio"
             id="sexo"
             name="sexo"
             value="hombre"
+            
           />Hombre<br />
-          <input type="radio" id="sexo" name="sexo" value="mujer" />Mujer<br />
 
+          <input type="radio" id="sexo" name="sexo" value="mujer" />Mujer</div>
+          <div style="margin-left = 2%">
           <input
             type="checkbox"
             id="condiciones"
             name="condiciones"
             value="Acepto los términos y condiciones"
-          />Acepto los términos y condiciones<br />
+          />Acepto los términos y condiciones</div>
 
           <label for="texto">Información adicional sobre el contacto:</label>  <br />
           <div class="tooltip">
