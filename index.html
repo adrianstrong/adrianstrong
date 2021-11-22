@@ -13,7 +13,7 @@
     <!-- Esto sirve para que se escale de la misma manera en cualquier dispositivo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="CSS_STYLESHEETS/estilos.css">
+  <link rel="stylesheet" href="CSS_STYLESHEETS/CSS_GLOBAL.css">
 
     <!-- Es el nombre que va a salir en la barra de tu navegador -->
     <title>Panesur | Index</title>
@@ -22,28 +22,19 @@
  -->    
     <body>
       <!-- Estamos poniendo dentro de le etiqueta de un parrafo un enlance a otro sitio y poniendole un nombre -->
-      <hr />
-      <table>
-      <tr>
-      <td>
-      <p><a href="index.html">Index</a></p>
-      </td>
-      <td>
-      <p><a href="aboutus.html">Sobre Nosotros</a></p>
-      </td>
-      <td>
-      <p><a href="services.html">Servicios</a></p>
-      </td>
-      <td>
-      <p><a href="contacto.html">Contacto</a></p>
-      </td>
-      <td>
-      <p><a href="noticias.html">Noticias</a></p>
-      </td>
-      </tr>
-      </table>
-     <!-- Un separador :) -->
-      <hr />
+      <div class="topnav">
+
+        <a class="active" href="index.html">Home</a>
+
+        <a href="noticias.html">Noticias</a>
+
+        <a href="Contacto.html">Contact</a>
+
+        <a href="aboutus.html">About</a>
+
+        <a href="services.html">Servicios</a>
+
+      </div>
 
 <!--       Estamos insertando una imagen, que en este caso, esta fuera de nuestra maquina, 
       asi que ponemos el enlace y le damos unas dimensiones para que no utilice la de por defecto -->
