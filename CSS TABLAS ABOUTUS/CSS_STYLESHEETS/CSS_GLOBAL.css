@@ -1,0 +1,20 @@
+/*CSS global para TODAS las páginas*/
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px gray;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 80%;
+    text-align: left;
+}
+
+h2 {
+    text-decoration-line: underline overline;
+    background-color: gray;
+    font-style: italic;
+}
