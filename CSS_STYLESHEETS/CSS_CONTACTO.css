@@ -1,0 +1,137 @@
+.saltaLinea {
+  display: block;
+}
+
+.centerImages {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tittleAlign {
+  text-align: center;
+}
+.borderCentered {
+  border: 2px solid black;
+  margin: 2%;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 300%;
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px 4px gray;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 80%;
+  text-align: left;
+}
+
+h2 {
+  text-decoration-line: underline overline;
+  background-color: gray;
+  font-style: italic;
+}
+
+.tooltip .tooltiptext {
+  top: -5px;
+  left: 105%;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  /* ponemos hidden para 
+que no se vea sin pasar el ratón */
+
+  background-color: rgb(82, 78, 78);
+  color: rgb(190, 226, 204);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/* aqui ponemos el tipo de input que queremos editar
+*/
+input[type="text"] {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 1px 5;
+  background-color: rgb(236, 207, 241);
+
+  box-sizing: border-box;
+  border: 1px solid #001a0d;
+  outline: none;
+  /* esta es una pequeña transición para cuando
+    pinchemos se vea como se estira el input*/
+  transition: width 0.4s ease-in-out;
+}
+/* este tipo de input es tel mientras que el otro
+  era text*/
+input[type="tel"] {
+  width: 230px;
+  padding: 10px 20px;
+  margin: 1px 5;
+  background-color: rgb(236, 207, 241);
+
+  box-sizing: border-box;
+  border: 1px solid #001a0d;
+  outline: none;
+  /* el background es el icono que pusimos
+    en uno de los inputs*/
+  background-image: url("https://thumbs.dreamstime.com/b/icono-del-tel%C3%A9fono-en-negro-con-las-ondas-104131960.jpg");
+  background-size: 18%;
+  background-position: 190px 0px;
+  /* si pusieramos repeat se repetiría la misma
+   imagen dentro del mismo input*/
+  background-repeat: no-repeat;
+}
+/* focus es para que cuando pinchemos en el
+  input se vea distinto a cuando no hemos
+  pinchado*/
+input[type="tel"]:focus {
+  background-color: rgb(228, 193, 183);
+  border: 3px solid #03140b;
+  background-image: url("https://thumbs.dreamstime.com/b/icono-del-tel%C3%A9fono-en-negro-con-las-ondas-104131960.jpg");
+  background-size: 18%;
+
+  background-position: 190px 0px;
+  background-repeat: no-repeat;
+}
+
+input[type="text"]:focus {
+  background-color: rgb(228, 193, 183);
+  border: 3px solid #165533;
+  width: 120%;
+}
+
+select {
+  width: 30%;
+  border: 1px solid #03140b;
+  border-radius: 1px;
+  background-color: #669999;
+}
+/* estos son los 2 botones que tenemos en nuestra
+página*/
+input[type="submit"],
+input[type="reset"] {
+  background-color: rgb(68, 55, 184);
+  border: 1px solid #03140b;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin: 2px 2px;
+  cursor: pointer;
+}
