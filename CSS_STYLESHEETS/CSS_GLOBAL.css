@@ -17,17 +17,8 @@ h2 {
     background-color: gray;
     font-style: italic;
 }
-a:hover{
-    background-color: white;
-}
-a:link{
-    background-color: red;
-}
-body {
-    margin: 0;
-    font-family: "Rubik", sans-serif;
-  }
-  
+
+
 
 .topnav {
   background-color: rgb(77, 74, 74); 
