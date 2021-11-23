@@ -104,7 +104,8 @@ en el nombre de la página que abrimos.-->
             id="Teléfono"
             name="Teléfono"
             placeholder="Nº de teléfono"
-          />
+            required>
+          
           <span class="tooltiptext">Introducir Teléfono de contacto </span> 
            
         </div>
@@ -140,16 +141,24 @@ en el nombre de la página que abrimos.-->
             name="sexo"
             value="hombre"
             
-          />Hombre<br />
+          />Hombre
 
           <input type="radio" id="sexo" name="sexo" value="mujer" />Mujer</div>
+
+
           <div style="margin-left = 2%">
           <input
             type="checkbox"
             id="condiciones"
             name="condiciones"
+            
             value="Acepto los términos y condiciones"
-          />Acepto los términos y condiciones</div>
+            required/>
+
+          
+           
+          Acepto los términos y condiciones</div>
+
           <div style="margin-left = 2%">
           <label for="texto"><p>Información adicional sobre el contacto</p></label>  
           <div class="tooltip">
@@ -170,7 +179,6 @@ en el nombre de la página que abrimos.-->
           <input type="submit" value="Submit" />
           <input type="reset" value="Reset" />
         </form>
-     
     
         <hr />
 
@@ -194,7 +202,7 @@ en el nombre de la página que abrimos.-->
                 text-align: right;
                 height: 500px;
                 width: 900px;
-              }</style
+              }</style>
             ><a href="https://www.embedgooglemap.net"
               >embed google maps in website</a
             ><style>
