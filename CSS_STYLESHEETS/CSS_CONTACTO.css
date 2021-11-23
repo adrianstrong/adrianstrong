@@ -142,3 +142,20 @@ input[type="reset"] {
   cursor: pointer;
 }
 
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 900px;
+}
+a href ="https://www.embedgooglemap.net"
+              >embed google maps in website</a
+
+              .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 900px;
+}
+
+
