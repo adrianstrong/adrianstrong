@@ -4,6 +4,7 @@ h1 {
     text-align: center;
     color: black;
     text-shadow: 2px 2px 4px gray;
+    color: #df8c26;
 }
 
 body {
@@ -11,15 +12,19 @@ body {
     font-size: 80%;
     text-align: left;
     margin: 2%;
+    background-color: #4d4d4d;
 }
 
 h2 {
     text-decoration-line: underline overline;
     background-color: gray;
     font-style: italic;
+    color: #df8c26;
 }
 
-
+p {
+    color: #ffffff;
+}
 
 .topnav {
   background-color: rgb(77, 74, 74); 
