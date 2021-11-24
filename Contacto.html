@@ -3,208 +3,220 @@
 en el navegador al abrir el archivo html, excepto <title>, que se verá reflejado
 en el nombre de la página que abrimos.-->
 <head>
-  <meta charset="UTF-8" />
-  <meta name="description" content="STORY 4" />
-  <meta name="author" content="Grupo 3" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href=CSS_STYLESHEETS/CSS_GLOBAL.css">
-  <link rel="stylesheet" href="CSS_STYLESHEETS/CSS_CONTACTO.css">
-  <title></title>
-  <!-- el tooltip es lo que vemos cuando dejamos el
-    puntero del ratón encima del input -->
- 
-  </head>
-    <html lang="es-ES" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
-      
+    <meta charset="UTF-8" />
+    <meta name="description" content="STORY 4" />
+    <meta name="author" content="Grupo 3" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS_STYLESHEETS/CSS_GLOBAL.css">
+    <link rel="stylesheet" href="CSS_STYLESHEETS/CSS_CONTACTO.css">
+    <title></title>
+    <!-- el tooltip es lo que vemos cuando dejamos el
+      puntero del ratón encima del input -->
 
+</head>
+<html lang="es-ES" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<!--[if gte mso 9]><xml>
+    <mso:CustomDocumentProperties>
+        <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Loren Lynch Mcrae</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+        <mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+        <mso:Order msdt:dt="string">202000.000000000</mso:Order>
+        <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Loren Lynch Mcrae</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+        <mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+        <mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+        <mso:ContentTypeId msdt:dt="string">0x0101009E8F3F4B6301BE499DD44703D05D239C</mso:ContentTypeId>
+        <mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+        <mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+    </mso:CustomDocumentProperties>
+</xml><![endif]-->
 </head><body>
-        
-        <div class="topnav">
 
-          <a class="active" href="index.html">Home</a>
-  
-          <a href="noticias.html">Noticias</a>
-  
-          <a href="Contacto.html">Contact</a>
-  
-          <a href="aboutus.html">About</a>
-  
-          <a href="services.html">Servicios</a>
-  
-        </div>
+<div class="topnav">
 
-        <!-- h1 se utiliza para escribir el título principal de la página, 
-        se pueden utilizar h2, h3, etc. para añadir subtítulos de menor importancia.-->
-        <h1  class="tittleAlign" ><u>CONTACTO</u></h1>
-        <!-- <p> se utiliza para escribir un párrafo visible en la página final.-->
-        <p class="tittleAlign">
-          En Panesur nos importa mucho la opinión de nuestros clientes, si ha
-          surgido algun problema o simplemente tienes alguna pregunta sobre el
-          proceso de nuestros productos contáctanos y te responderemos con la
-          mayor brevedad posible.
-        </p>
+    <a class="active" href="index.html">Home</a>
 
-        <hr />
-        <!-- Título que indica el inicio del formulario de contacto-->
-        <h2>Formulario de contacto</h2>
-        <!-- inicio del formulario de contacto-->
-        <form action="/action_page.php">
-          <!---->
-          <!-- Cada input del formulario tiene antes escrito <label..>, 
-            esto sirve para indicar cuál va a ser el objetivo de cada campo-->
-            <div style="margin-left"= 2%">
-          <label for="Nombre"><p>Nombre</p></label>
-          <div class="tooltip">
+    <a href="noticias.html">Noticias</a>
+
+    <a href="Contacto.html">Contact</a>
+
+    <a href="aboutus.html">About</a>
+
+    <a href="services.html">Servicios</a>
+
+</div>
+
+<!-- h1 se utiliza para escribir el título principal de la página,
+se pueden utilizar h2, h3, etc. para añadir subtítulos de menor importancia.-->
+<h1  class="tittleAlign" ><u>CONTACTO</u></h1>
+<!-- <p> se utiliza para escribir un párrafo visible en la página final.-->
+<p class="tittleAlign">
+    En Panesur nos importa mucho la opinión de nuestros clientes, si ha
+    surgido algun problema o simplemente tienes alguna pregunta sobre el
+    proceso de nuestros productos contáctanos y te responderemos con la
+    mayor brevedad posible.
+</p>
+
+<hr />
+<!-- Título que indica el inicio del formulario de contacto-->
+<h2>Formulario de contacto</h2>
+<!-- inicio del formulario de contacto-->
+<form action="/action_page.php">
+    <!---->
+    <!-- Cada input del formulario tiene antes escrito <label..>,
+      esto sirve para indicar cuál va a ser el objetivo de cada campo-->
+    <div style="margin-left = 2%">
+        <label for="Nombre"><p>Nombre</p></label>
+        <div class="tooltip">
             <input
-            type="text"
-            id="Nombre"
-            name="Nombre"
-            placeholder="Nombre"
-            minlength="3"
-            required
-          />
-          <span class="tooltiptext">Introducir
-              nombre</span> 
-          </div>
-        </div>
-           
-        <div style="margin-left = 2%">
-          <label for="Apellidos"><p>Apellidos</p></label>
-          <div class="tooltip">
-            <input
-            type="text"
-            id="Apellidos"
-            name="Apellidos"
-            placeholder="Apellidos"
-            minlength="3"
-            required
-          />
-          <span class="tooltiptext">Introducir
-            apellidos</span> 
-          </div>
-        </div>
-          
-        <div style="margin-left = 2%">
-          <label for="Teléfono"><p>Teléfono de contacto</p></label>
-          <div class="tooltip">
-          <input
-            type="tel"
-            id="Teléfono"
-            name="Teléfono"
-            placeholder="Nº de teléfono"
-            required>
-          
-          <span class="tooltiptext">Introducir Teléfono de contacto </span> 
-           
-        </div>
-      </div>
-      <div style="margin-left = 2%">
-          <label for="email"><p>Correo electrónico</p></label>
-          <div class="tooltip">
-              <input
-            type="text"
-            id="email"
-            name="email"
-            placeholder="Correo electrónico"
-            minlength="2"
-            required/>
+                    type="text"
+                    id="Nombre"
+                    name="Nombre"
+                    placeholder="Nombre"
+                    minlength="3"
+                    required
+            />
             <span class="tooltiptext">Introducir
-                correo electrónico</span> 
-            </div>
-          </div>
-          <div style="margin-left = 2%">
-          <label for="Servicio"><p>Servicio deseado</p></label>
-          <select name="Servicio" id="Servicio"> 
+              nombre</span>
+        </div>
+    </div>
+
+    <div style="margin-left = 2%">
+        <label for="Apellidos"><p>Apellidos</p></label>
+        <div class="tooltip">
+            <input
+                    type="text"
+                    id="Apellidos"
+                    name="Apellidos"
+                    placeholder="Apellidos"
+                    minlength="3"
+                    required
+            />
+            <span class="tooltiptext">Introducir
+            apellidos</span>
+        </div>
+    </div>
+
+    <div style="margin-left = 2%">
+        <label for="Teléfono"><p>Teléfono de contacto</p></label>
+        <div class="tooltip">
+            <input
+                    type="tel"
+                    id="Teléfono"
+                    name="Teléfono"
+                    placeholder="Nº de teléfono"
+                    required>
+
+            <span class="tooltiptext">Introducir Teléfono de contacto </span>
+
+        </div>
+    </div>
+    <div style="margin-left = 2%">
+        <label for="email"><p>Correo electrónico</p></label>
+        <div class="tooltip">
+            <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Correo electrónico"
+                    minlength="2"
+                    required/>
+            <span class="tooltiptext">Introducir
+                correo electrónico</span>
+        </div>
+    </div>
+    <div style="margin-left = 2%">
+        <label for="Servicio"><p>Servicio deseado</p></label>
+        <select name="Servicio" id="Servicio">
             <option value="encargos">Encargos</option>
             <option value="incidencias">Incidencias</option>
             <option value="sugerencias">Sugerencias</option>
-          </select>
-          </div>
-          
-          <div style="margin-left = 2%">
-          <label for="sexo"><p>Sexo</p></label>
-          <p>  <input
-            type="radio"
-            id="sexo"
-            name="sexo"
-            value="hombre"
-            
-          />Hombre </p>
+        </select>
+    </div>
 
-          <p> <input type="radio" id="sexo" name="sexo" value="mujer" />Mujer </p> </div>
+    <div style="margin-left = 2%">
+        <label for="sexo"><p>Sexo</p></label>
+        <p>  <input
+                type="radio"
+                id="sexo"
+                name="sexo"
+                value="hombre"
+
+        />Hombre </p>
+
+        <p> <input type="radio" id="sexo" name="sexo" value="mujer" />Mujer </p> </div>
 
 
-          <div style="margin-left = 2%"> <p>
-          <input
-            type="checkbox"
-            id="condiciones"
-            name="condiciones"
-            
-            value="Acepto los términos y condiciones"
-            required/>
+    <div style="margin-left = 2%"> <p>
+        <input
+                type="checkbox"
+                id="condiciones"
+                name="condiciones"
 
-          
-           
-          Acepto los términos y condiciones </p> </div>
+                value="Acepto los términos y condiciones"
+                required/>
 
-          <div style="margin-left = 2%">
-          <label for="texto"><p>Información adicional sobre el contacto</p></label>  
-          <div class="tooltip">
-             
-          <input
-            type="text"
-            id="texto"
-            name="texto"
-            placeholder="Información adicional"
-          />
-          <span class="tooltiptext">Introducir
-              información adicional</span> 
-          </div>
+
+
+        Acepto los términos y condiciones </p> </div>
+
+    <div style="margin-left = 2%">
+        <label for="texto"><p>Información adicional sobre el contacto</p></label>
+        <div class="tooltip">
+
+            <input
+                    type="text"
+                    id="texto"
+                    name="texto"
+                    placeholder="Información adicional"
+            />
+            <span class="tooltiptext">Introducir
+              información adicional</span>
         </div>
-      
-          <!-- El botón submit sirve para "enviar" el formulario rellenado 
-          al destino que está indicado en el action al abrir este.-->
-          
-          <input type="submit" value="Submit" />
-          
-          <input type="reset" value="Reset" />
-        </form>
-        <hr />
+    </div>
 
-        <!-- a partir de aquí se está introduciendo el mapa en la página web-->
-        <div class="mapouter">
-          <div class="gmap_canvas">
-            <iframe
-              width="900"
-              height="500"
-              id="gmap_canvas"
-              src="https://maps.google.com/maps?q=CESUR%20Malaga%20Este&t=k&z=15&ie=UTF8&iwloc=&output=embed"
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
-            ></iframe
-            ><a href="https://www.whatismyip-address.com/divi-discount/"></a
-            ><br /><style>
-              .mapouter {
-                position: relative;
-                text-align: right;
-                height: 500px;
-                width: 900px;
-              }</style>
-            ><a href="https://www.embedgooglemap.net"
-              >embed google maps in website</a
-            ><style>
-              .gmap_canvas {
-                overflow: hidden;
-                background: none !important;
-                height: 500px;
-                width: 900px;
-              }
-            </style>
-          </div>
-        </div>
-      </body>
-    </html>
-  </head>
+    <!-- El botón submit sirve para "enviar" el formulario rellenado
+    al destino que está indicado en el action al abrir este.-->
+
+    <input type="submit" value="Submit" />
+
+    <input type="reset" value="Reset" />
+</form>
+<hr />
+
+<!-- a partir de aquí se está introduciendo el mapa en la página web-->
+<div class="mapouter">
+    <div class="gmap_canvas">
+        <iframe
+                width="900"
+                height="500"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=CESUR%20Malaga%20Este&t=k&z=15&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+        ></iframe
+        ><a href="https://www.whatismyip-address.com/divi-discount/"></a
+    ><br /><style>
+        .mapouter {
+            position: relative;
+            text-align: right;
+            height: 500px;
+            width: 900px;
+        }</style>
+        ><a href="https://www.embedgooglemap.net"
+    >embed google maps in website</a
+    ><style>
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 500px;
+            width: 900px;
+        }
+    </style>
+    </div>
+</div>
+</body>
+</html>
+</head>
 </head>
