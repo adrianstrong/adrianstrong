@@ -5,6 +5,7 @@ h1 {
     color: black;
     text-shadow: 2px 2px 4px gray;
     color: #df8c26;
+    background-color: grey;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
 }
 p{
     font-size: 130% ;
+    color: #ffffff;
 }
 
 h2 {
@@ -28,9 +30,7 @@ h2 {
     text-align: left;
 }
 
-p {
-    color: #ffffff;
-}
+
 
 img{
     margin-left: auto;
