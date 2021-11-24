@@ -78,3 +78,6 @@ img{
     margin-left: auto;
     text-align: center;
 }
+.reflexion{
+        -webkit-box-reflect: right;
+         }
