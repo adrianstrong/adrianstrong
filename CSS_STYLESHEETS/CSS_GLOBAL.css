@@ -23,6 +23,8 @@ h2 {
     background-color: gray;
     font-style: italic;
     color: #df8c26;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
@@ -62,4 +64,9 @@ img{
 .gradiente{
   background-image: linear-gradient( #4d4d4d, #ecd9c6);
   background-attachment: fixed;
+}
+.txtAlign{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
