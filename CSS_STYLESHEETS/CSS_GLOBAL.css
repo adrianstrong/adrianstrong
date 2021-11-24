@@ -31,7 +31,6 @@ h2 {
 }
 
 
-
 img{
     margin-left: auto;
     margin-right: auto;
@@ -82,8 +81,14 @@ img{
     text-align: center;
 }
 .reflexion{
-        -webkit-box-reflect: right;
+        -webkit-box-reflect: below;
     margin-left: auto;
     margin-right: auto;
+    height: 20%;
+    width: 20%;
+    display: block;
     opacity: 0.8;
          }
+.opacidad{
+    opacity: 65%;
+}
