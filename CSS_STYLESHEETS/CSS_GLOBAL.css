@@ -66,6 +66,13 @@ img{
   background-image: linear-gradient( #4d4d4d, #ecd9c6);
   background-attachment: fixed;
 }
+
+.fotofondo{
+        background-image: url(https://previews.123rf.com/images/kwanchaichaiudom/kwanchaichaiudom1710/kwanchaichaiudom171000123/88914604-ingredientes-del-pan-y-de-la-panader%C3%ADa-en-el-fondo-de-madera-blanco-la-vista-superior-y-el-espacio-d.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        }
 .txtAlign{
     margin-right: auto;
     margin-left: auto;
