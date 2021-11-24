@@ -16,6 +16,7 @@ body {
 }
 p{
     font-size: 130% ;
+    color: #ffffff;
 }
 
 h2 {
@@ -28,9 +29,7 @@ h2 {
     text-align: left;
 }
 
-p {
-    color: #ffffff;
-}
+
 
 img{
     margin-left: auto;
