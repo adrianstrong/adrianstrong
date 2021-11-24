@@ -81,3 +81,7 @@ img{
 .reflexion{
         -webkit-box-reflect: right;
          }
+
+img{
+        border-radius: 10px;
+}
