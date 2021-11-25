@@ -18,6 +18,27 @@ label {
   border: 2px solid black;
   margin: 2%;
 }
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 300%;
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px 4px gray;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 80%;
+  text-align: left;
+}
+
+h2 {
+  text-decoration-line: underline;
+  text-align: center;
+  background-color: none;
+  font-style: italic;
+  color: #df8c26;
+}
 
 .tooltip .tooltiptext {
   top: -5px;
@@ -32,7 +53,7 @@ label {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  /* ponemos hidden para
+  /* ponemos hidden para 
 que no se vea sin pasar el ratón */
 
   background-color: #df8c26;
@@ -45,7 +66,9 @@ que no se vea sin pasar el ratón */
   z-index: 1;
 }
 
-
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 /* aqui ponemos el tipo de input que queremos editar
 */
 input[type="text"] {
