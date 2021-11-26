@@ -32,11 +32,7 @@
     border-right: solid white;
     height: 100%;
     }
-   /* #tabla td:hover{
-      background-color: chocolate;
-      color: cyan;
-      }*/
-      #tabla2:hover td {background-color: yellow;}
+      #tabla2:hover td {background-color: gray;}
     
     #tabla td{
       padding-top: 2%;
