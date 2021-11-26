@@ -40,12 +40,3 @@ ul {
 p {
     text-shadow: 2px 2px 4px gray;
 }
-a{
-    background-color: gray;
-}
-a:hover{
-    background-color: white;
-}
-a:link{
-    background-color: red;
-}
