@@ -1,5 +1,5 @@
 
-  
+  /* en la ID tabla definimos todas sus caracteristicas, lineado, bordes.... */
     #tabla table {
     overflow-x: auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,14 +14,14 @@
     outline-width: 4px;
     border-radius: 25px;
     }
-    
+    /* centramos el texto dentro de las tablas */
     #tabla tr td th {
     border: 1px solid #ddd;
     text-align: center;
     padding: 8px;
     }
        
-
+/* definimos los terminos th de la tabla, primera fila */
     #tabla th {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -32,8 +32,9 @@
     border-right: solid white;
     height: 100%;
     }
+/* es el hover de la tabla */
       #tabla2:hover td {background-color: gray;}
-    
+    /* definimos los terminos td de la tabla, el resto de la tabla */
     #tabla td{
       padding-top: 2%;
       padding-bottom: 2%;
