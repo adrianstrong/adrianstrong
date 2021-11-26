@@ -1,22 +1,6 @@
 .color{
+  /*para poerle color a los elementos seleccionados*/
   color: #df8c26;
-}
-
-.saltaLinea {
-  display: block;
-}
-
-.centerImages {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.tittleAlign {
-  text-align: center;
-}
-.borderCentered {
-  border: 2px solid black;
-  margin: 2%;
 }
 h1 {
   font-family: Arial, Helvetica, sans-serif;
@@ -39,7 +23,7 @@ h2 {
   font-style: italic;
   color: #df8c26;
 }
-
+/* la clase tooltip se usa para mostrar un cuadro de texto cuando pasas el ratón por el elemento seleccionado*/
 .tooltip .tooltiptext {
   top: -5px;
   left: 105%;

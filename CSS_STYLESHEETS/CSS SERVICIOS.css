@@ -30,6 +30,7 @@ ul {
     margin: 2%;
 }
 .tamaño{
+    /* fuente de los productos*/
     font-family: "EB Garamond", serif;
     font-family: "Roboto Mono", monospace;
     text-decoration-line: underline overline;
