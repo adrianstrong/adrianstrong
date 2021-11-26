@@ -1,3 +1,4 @@
+/* importamos una fuente de google */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto+Mono:wght@300&display=swap');
 
 ul {
@@ -12,7 +13,7 @@ ul {
 
 
 }
-
+/* line-trough sirve para tachar el texto*/
 .strike {
     text-decoration-line: line-through;
 }
