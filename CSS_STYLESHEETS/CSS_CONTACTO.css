@@ -22,7 +22,7 @@ h2 {
   background-color: none;
   font-style: italic;
   color: #df8c26;
-  text-transform: uppercase;
+
 }
 /* la clase tooltip se usa para mostrar un cuadro de texto cuando pasas el ratón por el elemento seleccionado*/
 .tooltip .tooltiptext {
