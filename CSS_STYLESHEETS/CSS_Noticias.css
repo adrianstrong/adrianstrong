@@ -1,18 +1,20 @@
+/* definimos el row donde estaran las columnas */
 .row{
     display: flex;
     flex-wrap: wrap;
 }
+/* hacemos tres columnas */
 .column{
     flex: 28%;
     padding: 2%;
 }
-
+/* responsive dos columnas solo */
 @media screen and (max-width: 992px){
     .column{
         flex: 42%;
     }
 }
-
+/* responsive una columna solo */
 @media screen and (max-width: 600px) {
     .row{
         flex-direction: column;
