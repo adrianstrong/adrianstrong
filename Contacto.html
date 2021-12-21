@@ -70,6 +70,7 @@
           <div class="col-md-4">
             <label for="validationCustomUsername" class="form-label">Nombre de usuario</label>
             <div class="input-group has-validation">
+              
               <input type="text"  data-bs-toggle="tooltip" title="Usuario" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
               <div class="invalid-feedback">
                 Elija un nombre de usuario.
@@ -84,6 +85,10 @@
           class="form-control"
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
+          
+          
+         @ required
+        
         />
         <div id="emailHelp" class="form-text">
           No compartiremos tu email
@@ -114,8 +119,9 @@
       </div>
       
       <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" required/>
         <label class="form-check-label" for="exampleCheck1">Acepto los términos y condiciones</label>
+        
       </div>
       <div class="container mt-3">
         <h2>Sugerencias</h2>
