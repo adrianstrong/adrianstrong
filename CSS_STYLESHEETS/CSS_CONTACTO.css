@@ -105,7 +105,7 @@ input[type="tel"]:focus {
 input[type="text"]:focus {
   background-color: rgb(228, 193, 183);
   border: 3px solid #165533;
-  width: 120%;
+  width: 100%;
 }
 
 select {
