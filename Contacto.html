@@ -1,203 +1,171 @@
 <!DOCTYPE html>
-<!-- todo lo que está escrito en el head será información que no será visible
-en el navegador al abrir el archivo html, excepto <title>, que se verá reflejado
-en el nombre de la página que abrimos.-->
-<head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="STORY 4" />
-    <meta name="author" content="Grupo 3" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="CSS_STYLESHEETS/CSS_GLOBAL.css">
-    <link rel="stylesheet" href="CSS_STYLESHEETS/CSS_CONTACTO.css">
+<html lang="en">
+  <head>
+      <!DOCTYPE html>
+      <!-- todo lo que está escrito en el head será información que no será visible
+      en el navegador al abrir el archivo html, excepto <title>, que se verá reflejado
+      en el nombre de la página que abrimos.-->
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="STORY 4" />
+        <meta name="author" content="Grupo 3" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <!-- el tooltip es lo que vemos cuando dejamos el
-      puntero del ratón encima del input -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="CSS_GLOBAL.css">
+    <link rel="stylesheet" href="CSS_CONTACTO.css">
+  
+  <html lang="es-ES" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+  </head>
+  <body>
+      <div class="topnav">
 
-</head>
-<html lang="es-ES" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
-
-
-</head><body>
-
-<div class="topnav">
-
-    <a class="active" href="index.html">Home</a>
-
-    <a href="noticias.html">Noticias</a>
-
-    <a href="Contacto.html">Contact</a>
-
-    <a href="aboutus.html">About</a>
-
-    <a href="services.html">Servicios</a>
-
-</div>
-
-<!-- h1 se utiliza para escribir el título principal de la página,
-se pueden utilizar h2, h3, etc. para añadir subtítulos de menor importancia.-->
-<h1  class="tittleAlign color" ><u>CONTACTO</u></h1>
-<!-- <p> se utiliza para escribir un párrafo visible en la página final.-->
-<p class="tittleAlign">
-    En Panesur nos importa mucho la opinión de nuestros clientes, si ha
-    surgido algun problema o simplemente tienes alguna pregunta sobre el
-    proceso de nuestros productos contáctanos y te responderemos con la
-    mayor brevedad posible.
-</p>
-
-<hr />
-<!-- Título que indica el inicio del formulario de contacto-->
-<h2>Formulario de contacto</h2>
-<!-- inicio del formulario de contacto-->
-<form action="/action_page.php">
-    <!---->
-    <!-- Cada input del formulario tiene antes escrito <label..>,
-      esto sirve para indicar cuál va a ser el objetivo de cada campo-->
-    <div >
-        <label for="Nombre"><p class="color">Nombre</p></label>
-        <div class="tooltip">
-            <input
-                    type="text"
-                    id="Nombre"
-                    name="Nombre"
-                    placeholder="Nombre"
-                    minlength="3"
-                    required
-            />
-            <span class="tooltiptext">Introducir
-              nombre</span>
+          <a class="active" href="index.html">Home</a>
+  
+          <a href="noticias.html">Noticias</a>
+  
+          <a href="Contacto.html">Contact</a>
+  
+          <a href="aboutus.html">About</a>
+  
+          <a href="services.html">Servicios</a>
+  
         </div>
-    </div>
+        <hr />
 
-    <div >
-        <label for="Apellidos"><p class="color">Apellidos</p></label>
-        <div class="tooltip">
-            <input
-                    type="text"
-                    id="Apellidos"
-                    name="Apellidos"
-                    placeholder="Apellidos"
-                    minlength="3"
-                    required
-            />
-            <span class="tooltiptext">Introducir
-            apellidos</span>
-        </div>
-    </div>
-
-    <div >
-        <label for="Teléfono"><p class="color">Teléfono de contacto</p></label>
-        <div class="tooltip">
-            <input
-                    type="tel"
-                    id="Teléfono"
-                    name="Teléfono"
-                    placeholder="Nº de teléfono"
-                    required>
-
-            <span class="tooltiptext">Introducir Teléfono de contacto </span>
-
-        </div>
-    </div>
-    <div>
-        <label for="email"><p class="color">Correo electrónico</p></label>
-        <div class="tooltip">
-            <input
-                    type="text"
-                    id="email"
-                    name="email"
-                    placeholder="Correo electrónico"
-                    minlength="2"
-                    required/>
-            <span class="tooltiptext">Introducir
-                correo electrónico</span>
-        </div>
-    </div>
-    <div >
-        <label for="Servicio"><p class="color">Servicio deseado</p></label>
-        <select name="Servicio" id="Servicio">
-            <option value="encargos">Encargos</option>
-            <option value="incidencias">Incidencias</option>
-            <option value="sugerencias">Sugerencias</option>
-        </select>
-    </div>
-
-    <div style="margin-left = 2%">
-        <label for="sexo"><p class="color">Sexo</p></label>
-        <p>  <input
-                type="radio"
-                id="sexo"
-                name="sexo"
-                value="hombre"
-
-        />Hombre </p>
-
-        <p > <input type="radio" id="sexo" name="sexo" value="mujer" />Mujer </p> </div>
-
-
-    <div > <p >
+   
+      <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-4">  
+            <label for="validationCustom01"  class="form-label">Nombre</label>
+            
+            
+            <input type="text" data-bs-toggle="tooltip" title="Nombre"  class="form-control" id="validationCustom01" placeholder="Nombre"
+            minlength="3" required/>
+            <div class="valid-feedback">
+              Bien hecho
+            </div>
+          </div>
+        
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Apellidos</label>
+            <input type="text"  data-bs-toggle="tooltip" title="Apellidos" class="form-control" id="validationCustom02"  placeholder="Apellidos" minlength="3"
+            required/>
+            <div class="valid-feedback">
+              Bien hecho
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label">Nombre de usuario</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input type="text"  data-bs-toggle="tooltip" title="Usuario" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Elija un nombre de usuario.
+              </div>
+            </div>
+          </div>
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email de contacto</label>
         <input
-                type="checkbox"
-                id="condiciones"
-                name="condiciones"
-
-                value="Acepto los términos y condiciones"
-                required/>
-
-
-
-        Acepto los términos y condiciones </p> </div>
-
-    <div >
-        <label for="texto"><p>Información adicional sobre el contacto</p></label>
-        <div class="tooltip">
-
-            <input
-                    type="text"
-                    id="texto"
-                    name="texto"
-                    placeholder="Información adicional"
-            />
-            <span class="tooltiptext">Introducir
-              información adicional</span>
+          type="email"  data-bs-toggle="tooltip" title="Email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+        <div id="emailHelp" class="form-text">
+          No compartiremos tu email
         </div>
-    </div>
+      </div>
+      
+   
+<select class="form-select form-select-sm" aria-label=".form-select-sm example">
 
-    <!-- El botón submit sirve para "enviar" el formulario rellenado
-    al destino que está indicado en el action al abrir este.-->
+  <option value="1">Sugerencias</option>
+  <option value="2">Encargos</option>
+  <option value="3">Incidencias</option>
+  
+</select>
 
-    <input type="submit" value="Submit" />
 
-    <input type="reset" value="Reset" />
-</form>
-<hr />
-
-<!-- a partir de aquí se está introduciendo el mapa en la página web-->
-<div class="mapouter">
-    <div class="gmap_canvas">
-        <iframe
-                width="900"
-                height="500"
-                id="gmap_canvas"
-                src="https://maps.google.com/maps?q=CESUR%20Malaga%20Este&t=k&z=15&ie=UTF8&iwloc=&output=embed"
-                frameborder="0"
-                scrolling="no"
-                marginheight="0"
-                marginwidth="0"
-        ></iframe
-        ><a href="https://www.whatismyip-address.com/divi-discount/"></a> />
-
-        ><a href="https://www.embedgooglemap.net"
-    >embed google maps in website</a
-    ><style>
-        .gmap_canvas {
-            overflow: hidden;
-            background: none !important;
-            height: 500px;
-            width: 900px;
-        }
-    </style>
-
-</body>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Hombre
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+         Mujer
+        </label>
+      </div>
+      
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1">Acepto los términos y condiciones</label>
+      </div>
+      <div class="container mt-3">
+        <h2>Sugerencias</h2>
+        <p>Puedes poner sugerencias para nuestra panadería</p>
+        <form action="/action_page.php">
+          <div class="mb-3 mt-3"> 
+            <label for="comment">Sugerencias:</label>
+            <textarea class="form-control"  data-bs-toggle="tooltip" title="Sugerencias" rows="5" id="comment" name="text"></textarea>
+          </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="reset" class="btn btn-primary">Reset</button> 
+      
+    </form>
+    </form>
+    <hr />
+    <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe
+            width="900"
+            height="500"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=CESUR%20Malaga%20Este&t=k&z=15&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          ></iframe
+          ><a href="https://www.whatismyip-address.com/divi-discount/"></a
+          ><br /><style>
+            .mapouter {
+              position: relative;
+              text-align: right;
+              height: 500px;
+              width: 900px;
+            }</style>
+          ><a href="https://www.embedgooglemap.net"
+            >embed google maps in website</a
+          ><style>
+            .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              height: 500px;
+              width: 900px;
+            }
+          </style>
+        </div>
+      </div>
+  
+      
+      <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+      </script>
+      
+    
+  </body>
 </html>
-</head>
-</head>
