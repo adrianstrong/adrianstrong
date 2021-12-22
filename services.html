@@ -7,24 +7,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="CSS_STYLESHEETS/CSS_GLOBAL.css">
   <link rel="stylesheet" href="CSS_STYLESHEETS/CSS%20SERVICIOS.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Servicios</title>
 </head>
     <html>
       <body>
-      <div class="topnav">
+        <div>
+            <div id="myLinks">
+                <a href="noticias.html">News</a>
+                <a href="contacto.html">Contact</a>
+                <a href="aboutus.html">About</a>
+                <a href="noticias.html">Noticias</a>
+                <a href="index.html">Sobre nosotros</a>
+              </div>
 
-          <a class="active" href="index.html">Home</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
 
-          <a href="noticias.html">Noticias</a>
-
-          <a href="Contacto.html">Contact</a>
-
-          <a href="aboutus.html">About</a>
-
-          <a href="services.html">Servicios</a>
-
-      </div>
-
+            <script>
+                function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+                }
+            </script>
     <h1 class="tittleAlign"> SERVICIOS</h1>
 
     <p>
