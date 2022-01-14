@@ -17,18 +17,18 @@ ul {
 .strike {
     text-decoration-line: line-through;
 }
-.centerImages {
+/*.centerImages {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-.tittleAlign{
+}*/
+/*.tittleAlign{
     text-align: center
-}
-.borderCentered{
+}*/
+/*.borderCentered{
     border: 2px solid black;
     margin: 2%;
-}
+}*/
 .tamaño{
     /* fuente de los productos*/
     font-family: "EB Garamond", serif;
