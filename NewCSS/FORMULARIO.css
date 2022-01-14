@@ -1,3 +1,10 @@
+h2 {
+    text-decoration-line: underline;
+    text-align: center;
+    font-style: italic;
+    color: #df8c26;
+}
+
 .tooltip .tooltiptext {
     top: -5px;
     left: 105%;
