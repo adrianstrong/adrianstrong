@@ -100,3 +100,11 @@ img{
 .opacidad{
     opacity: 65%;
 }
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 900px;
+}
+
