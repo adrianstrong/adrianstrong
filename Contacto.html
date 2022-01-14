@@ -79,18 +79,20 @@
           </div>
     <form>
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email de contacto</label>
-        <input
-           type="email" placeholder="Email" data-bs-toggle="tooltip" title="Email"
-          class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-          
-          
-         @ required
         
-        />
+        <label for="exampleInputEmail1" class="form-label">Email de contacto</label>
+        
+   
+        
         <div id="emailHelp" class="form-text">
+            <div class="input-group mb-3">
+                <span class="input-group-text">&#9742;</span>
+                <input class="form-control" type="email" placeholder="Email"  data-bs-toggle="tooltip" title="Email"  id="exampleInputEmail1"
+                aria-describedby="emailHelp"  @ required
+                <i class="bi bi-envelope"></i>>
+                
+              </div>
+      
           No compartiremos tu email
         </div>
       </div>
@@ -181,5 +183,6 @@
     
   </body>
 </html>
+
 
 
