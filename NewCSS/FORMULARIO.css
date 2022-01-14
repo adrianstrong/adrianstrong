@@ -1,0 +1,101 @@
+.tooltip .tooltiptext {
+    top: -5px;
+    left: 105%;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    /* ponemos hidden para
+  que no se vea sin pasar el ratón */
+
+    background-color: #df8c26;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/* aqui ponemos el tipo de input que queremos editar
+*/
+input[type="text"] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 1px ;
+    background-color: white;
+
+    box-sizing: border-box;
+    border: 1px solid #001a0d;
+    outline: none;
+    /* esta es una pequeña transición para cuando
+      pinchemos se vea como se estira el input*/
+    transition: width 0.4s ease-in-out;
+}
+/* este tipo de input es tel mientras que el otro
+  era text*/
+input[type="tel"] {
+    width: 230px;
+    padding: 10px 20px;
+    margin: 1px ;
+    background-color: white;
+
+    box-sizing: border-box;
+    border: 1px solid #001a0d;
+    outline: none;
+    /* el background es el icono que pusimos
+      en uno de los inputs*/
+    background-image: url("https://thumbs.dreamstime.com/b/icono-del-tel%C3%A9fono-en-negro-con-las-ondas-104131960.jpg");
+    background-size: 18%;
+    background-position: 190px 0px;
+    /* si pusieramos repeat se repetiría la misma
+     imagen dentro del mismo input*/
+    background-repeat: no-repeat;
+}
+/* focus es para que cuando pinchemos en el
+  input se vea distinto a cuando no hemos
+  pinchado*/
+input[type="tel"]:focus {
+    background-color: rgb(228, 193, 183);
+    border: 3px solid #03140b;
+    background-image: url("https://thumbs.dreamstime.com/b/icono-del-tel%C3%A9fono-en-negro-con-las-ondas-104131960.jpg");
+    background-size: 18%;
+
+    background-position: 190px 0px;
+    background-repeat: no-repeat;
+}
+
+input[type="text"]:focus {
+    background-color: rgb(228, 193, 183);
+    border: 3px solid #165533;
+    width: 100%;
+}
+
+select {
+    width: 30%;
+    border: 1px solid #03140b;
+    border-radius: 1px;
+    background-color: white;
+}
+/* estos son los 2 botones que tenemos en nuestra
+página*/
+input[type="submit"],
+input[type="reset"] {
+    background-color: white;
+    border: 1px solid #03140b;
+    color: #df8c26;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+}

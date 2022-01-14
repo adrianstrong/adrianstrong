@@ -1,22 +1,10 @@
 /* importamos una fuente de google */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto+Mono:wght@300&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto+Mono:wght@300&display=swap');*/
 
-ul {
-    font-family: "EB Garamond", serif;
-    font-family: "Roboto Mono", monospace;
-    text-align: left;
-    text-decoration-line: underline;
-    font-style: oblique;
-    font-size: 40%;
-    text-indent: 4%;
-    line-height : 35px;
-
-
-}
 /* line-trough sirve para tachar el texto*/
-.strike {
+/*.strike {
     text-decoration-line: line-through;
-}
+}*/
 .centerImages {
     display: block;
     margin-left: auto;
@@ -37,7 +25,4 @@ ul {
     background-color: gray;
     font-style: italic;
     font-size: 90%;
-}
-p {
-    text-shadow: 2px 2px 4px gray;
 }
